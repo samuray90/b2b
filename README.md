@@ -1,4 +1,4 @@
-# b2b
+# https://github.com/samuray90/b2b
 
 Busyness to busyness landing page.
 
