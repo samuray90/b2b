@@ -71,3 +71,23 @@
     background-color: $color-card-dark;
   }
 }
+
+@media screen and (prefers-color-scheme: dark) {
+  .article-panel {
+    &__title,
+    &__card {
+      color: #fff;
+      background-color: $color-card-dark;
+    }
+
+    &__button--outlined {
+      background-color: $color-card-dark;
+      color: $color-white;
+    }
+
+    &__button--filled {
+      color: $color-card-dark;
+      background-color: $color-white;
+    }
+  }
+}
