@@ -1,4 +1,10 @@
 - text: 2018 All right reserved
+  type: text
   icon: copyright
 - text: ionutsdaniel53@gmail.com
+  type: text
   icon: email
+- text: github.com/samuray90/b2b
+  type: link
+  link: https://github.com/samuray90/b2b
+  icon: github

@@ -4,4 +4,10 @@ footer
       div(
       class=`b2b-${item.icon}`
       )
-      div= item.text
+      if (item.type === 'text')
+        div= item.text
+      else 
+        a(
+          href=item.link
+          title=item.text
+        )= item.text
