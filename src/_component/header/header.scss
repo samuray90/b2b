@@ -1,0 +1,21 @@
+.header {
+  // 551/980 = 0.5622448979591837
+  padding-top: 56.22%;
+  grid-column: 1/-1;
+  position: relative;
+  background-size: cover;
+
+  &::before {
+    content: attr(data-title);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+}
